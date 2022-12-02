@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Palanquin:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <script src="script.js"></script>
+    <title>Matt Lorenzo's Portfolio Website</title>
+</head>
+<body>
+    <header>
+        <!-- <div class="logo-container">
+            <h1 class="logo">Matt Lorenzo</h1>
+        </div> -->
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about-me">About Me</a></li>
+                <li><a class="nav-link" href="#">Projects</a></li>
+                <li><a class="nav-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="resume">
+            <button class="resume-button">Resume</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="home" id="home">
+            <div class="home-container">
+                <div class="intro-text">
+                    <h3>Hey, I'm Matt Lorenzo</h3>
+                </div>
+            </div>
+            <div class="cover">
+                <img src="picture.jpeg" alt="cover_picture">
+            </div>
+        </section>
+
+        <section class="about-me" id="about-me">
+            <div class="row">
+                <div class="col-1">
+                    <img src="picture.jpeg" alt="other_picture">
+                </div>
+                <div class="col-2">
+                    <h1>About Me</h1>
+                    <h3>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Suscipit aperiam quia aliquid voluptatum et illo debitis 
+                        quas omnis doloremque rerum similique, est iste iure, 
+                        quis excepturi! Libero vero deserunt doloribus.
+                    </h3>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="education">
+                        <ul>
+                            <li>
+                                <span>Virginia Tech</span>
+                                <br>
+                                Major: Computer Science
+                                <br>
+                                GPA: 3.3
+                                <br>
+                                Expected Graduation Year: 2025
+                            </li>
+                            <li>
+                                <span>Relevant Classes</span>
+                                <br>
+                                CS 2114 - Software Design and Data Structures
+                                <br>
+                                CS 2104 - Intro to Problem Solving in CS
+                                <br>
+                                Math 2534 - Intro to Discrete Mathematics
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="skills">
+                        <ul>
+                            <li>
+                                <span>Programming Languages</span>
+                                <br>
+                                Java, Python, HTML, CSS, JavaScript, MATLAB
+                            </li>
+                            <li>
+                                <span>Software Skills/Concepts</span>
+                                <br>
+                                Git
+                                <br>
+                                Polymorphism
+                                <br>
+                                Data Structures
+                                <br>
+                                Algorithms
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Independent Study CS Genome</span>
+                                <br>
+                                Spring 2023 - Present
+                                <br>
+                                
+                            </li>
+                            <li>
+                                <span>Treasurer for Computer Science Honor Society at Bishop Ireton High School</span>
+                                <br>
+                                (2020-2021)
+                                <br>
+                                Handled Budgeting, collected dues, and held weekly virtual Java workshops for middle school students in the area.
+                            </li>
+                            <li>
+                                <span>HackBI</span>
+                                <br>
+                                (2020-2021)
+                                <br>
+                                Part of the Admin team where I helped run the event by organizing workshops, 
+                                sending emails, setting up Signup Genius, and scheduling adult volunteers.
+                                <br>
+                                Led a GitHub/Gitbash workshop which went over git basics.
+                                <br>
+                                Co-Led a Java Workshop that briefly went over data types, variables, fields, constructors, and medthods.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
